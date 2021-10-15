@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+#landing_container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#landing_container header {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#landing_container header h3 {
+  display: inline;
+}
+
+#landing_container nav {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 90vw;
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 7.5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#login_button {
+  background-color: #9D4616CC;
+}
+
+#signup_button {
+  background-color: #2E2E2ECC;
+}
+/*# sourceMappingURL=style.css.map */
